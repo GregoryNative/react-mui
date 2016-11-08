@@ -1,7 +1,7 @@
 {
-  "name": "redux-starter",
+  "name": "react-mui",
   "version": "1.0.0",
-  "description": "Starter kit for Redux web apps",
+  "description": "Starter Node.js express React kit for Redux web apps",
   "main": "index.js",
   "scripts": {
     "postinstall": "npm run build",
@@ -15,7 +15,7 @@
     "react",
     "starter"
   ],
-  "author": "Marc Garreau",
+  "author": "Gregory Galushka",
   "license": "MIT",
   "dependencies": {
     "babel-core": "^6.7.4",
