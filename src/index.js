@@ -5,10 +5,24 @@ import { syncHistoryWithStore } from 'react-router-redux';
 import Root from './containers/Root';
 import configureStore from './store/configureStore';
 
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import injectTapEventPlugin from 'react-tap-event-plugin';
+injectTapEventPlugin();
+
 const store = configureStore();
 const history = syncHistoryWithStore(browserHistory, store);
 
+class App extends React.Component {
+  render() {
+    return (
+      <MuiThemeProvider>
+        <Root store={store} history={history} />
+      </MuiThemeProvider>
+    );
+  }
+}
+
 render(
-  <Root store={store} history={history} />,
+  <App />,
   document.getElementById('root')
 );
