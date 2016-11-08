@@ -39,7 +39,6 @@ env:
 rules:
   # Possible Errors
   comma-dangle: [2, 'never']
-  no-console: 1
   no-control-regex: 2
   no-debugger: 1
   no-dupe-args: 2
@@ -100,7 +99,6 @@ rules:
   no-param-reassign: 2
   no-proto: 2
   no-redeclare: 2
-  no-return-assign: 2
   no-script-url: 2
   no-self-compare: 2
   no-sequences: 2
