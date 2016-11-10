@@ -3,15 +3,15 @@ import * as ActionTypes from '../actions/labs';
 const initialState = {
   items: [
     {
-      name: 'Я',
+      name: 'l01',
       goal: 'Need to blablab'
     },
     {
-      name: 'Тебя',
+      name: 'l02',
       goal: 'Need to 2  blablab'
     },
     {
-      name: 'Люблю',
+      name: 'l03',
       goal: 'Need to 3  blablab'
     }
   ]
